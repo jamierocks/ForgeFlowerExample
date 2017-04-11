@@ -1,0 +1,22 @@
+From a69f628f64bba8ff0df0b80d7714489c2370c5b9 Mon Sep 17 00:00:00 2001
+From: Jamie Mansfield <dev@jamierocks.uk>
+Date: Tue, 11 Apr 2017 18:44:33 +0100
+Subject: [PATCH] Comment out unused field
+
+
+diff --git a/src/org/jetbrains/java/decompiler/code/CodeConstants.java b/src/org/jetbrains/java/decompiler/code/CodeConstants.java
+index 7718ac3..b85a2e0 100644
+--- a/src/org/jetbrains/java/decompiler/code/CodeConstants.java
++++ b/src/org/jetbrains/java/decompiler/code/CodeConstants.java
+@@ -352,7 +352,7 @@ public interface CodeConstants {
+   int opc_invokestatic = 184;
+   int opc_invokeinterface = 185;
+   int opc_invokedynamic = 186;
+-  int opc_xxxunusedxxx = 186;
++//  int opc_xxxunusedxxx = 186; // ForgeFlowerExample -> comment out unused field
+   int opc_new = 187;
+   int opc_newarray = 188;
+   int opc_anewarray = 189;
+-- 
+2.12.0
+
